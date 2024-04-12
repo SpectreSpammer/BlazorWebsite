@@ -1,0 +1,59 @@
+﻿@page "/queue"
+@rendermode InteractiveServer
+
+
+<div class="container">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+        <table class="table table-striped">
+            <tbody>   
+                    <tr>
+                        <td>
+                        
+                        </td>
+
+                        <td>
+             
+                        </td>
+                    </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center bd-highlight">
+    <div class="mr-3">
+        <div class="form-floating">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="submit" class="btn btn-primary">Cancel</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    List<QueueItemsList> QueueItems = new();
+    protected override void OnInitialized()
+    {
+        QueueItems.Add(new()
+            {
+                Id = 1,
+                Name = "4090 TI",
+                isActive = true,
+                Price = 69,
+                QueueProperties = new()
+                {
+                    new QueueItems    {   QueueGuid = 1, QueueName = "Nvidia" },
+
+                    new QueueItems    {   QueueGuid = 2, QueueName = "vram"   },
+
+                    new QueueItems    {   QueueGuid = 3, QueueName = "display" }
+                }
+            });
+
+
+      
+
+    }
+
+    
+}

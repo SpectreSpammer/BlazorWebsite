@@ -1,0 +1,74 @@
+﻿@page "/demoProduct"
+@rendermode InteractiveServer
+
+<h3>DemoProduct</h3>
+
+<div class="border p-2 mt-2" style="background-color:azure">
+    <div class="row">
+        @foreach(var prod in Products)
+        {
+            <div class="bg-light border m-1 ">
+                <h4 class="text-secondary">Product - @prod.Id</h4>
+                Name - @prod.Name<br />
+                Show Properties :
+                <input type="checkbox" @bind="prod.isActive" /><br />
+
+                @if (prod.isActive)
+                {
+                    @foreach(var prodProp in prod.ProductProperties)
+                    {
+                        <p>@prodProp.Key - @prodProp.Value</p>
+                    }
+                }
+                <br />
+
+                <input  type="button" class="btn-danger" style="width:100px;" value="Delete"/>
+                <input type="button" class="btn-success" style="width:100px;" value="Edit" />
+            </div>
+        }
+    </div>
+</div>
+
+
+@code {
+    List<Demo_Products> Products = new();
+    protected override void OnInitialized()
+    {
+        Products.Add(new()
+            {
+                Id = 1,
+                Name = "4090 TI",
+                isActive = false,
+                Price = 69,
+                ProductProperties = new()
+                {
+                    new Demo_ProductProp    {   Id = 1, Key = "Nvidia", Value = "RTX"   },
+
+                    new Demo_ProductProp    {   Id = 2, Key = "vram", Value = "32gb"    },
+
+                    new Demo_ProductProp    {   Id = 3, Key = "display", Value = "4k"   }
+                }
+            });
+
+
+        Products.Add(new()
+            {
+                Id = 2,
+                Name = "6900XT",
+                isActive = false,
+                Price = 96,
+                ProductProperties = new()
+                {
+                   new Demo_ProductProp    {   Id = 1, Key = "AMD", Value = "Radeon"   },
+
+                    new Demo_ProductProp    {   Id = 2, Key = "vram", Value = "32gb"    },
+
+                    new Demo_ProductProp    {   Id = 3, Key = "display", Value = "4k"   }
+                }
+            });
+
+
+
+
+    }
+}

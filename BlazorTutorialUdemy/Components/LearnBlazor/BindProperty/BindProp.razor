@@ -1,0 +1,178 @@
+﻿@page "/learnBlazor/bindProp"
+@rendermode InteractiveServer
+
+
+<h2 class="text-success">Individual Product</h2>
+
+<div class="row">
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Playground</h3><hr />
+
+        <div>
+            Active:   <input type="checkbox" @bind="Product.isActive" /><br />
+        </div>
+
+        <div>
+            Price:<input type="number" @bind="Product.Price" /><br />
+        </div>
+
+        <div>
+            Product Properties:
+            <select @bind="selectedProp">
+                @foreach (var prop in Product.ProductProperties)
+                {
+                    <option value="@prop.Key">@prop.Key</option>
+                }
+            </select>
+        </div>
+
+    </div>
+
+
+    <div class="col-6 border p-2">
+        <h3 class="text-primary">Product Summary</h3><hr />
+        Id: @Product.Id<br />
+        Name: @Product.Name<br />
+        isActive: @Product.isActive<br />
+        This Product is: @(Product.isActive ? "Active" : "Inactive")<br />
+        Prices: @Product.Price<br />
+        Property Selected: @selectedProp <br />
+        @if (!String.IsNullOrWhiteSpace(selectedProp))
+        {
+            <p>Property Value: @Product.ProductProperties.FirstOrDefault(u => u.Key == selectedProp).Value</p>
+        }
+        <br />
+    </div>
+
+
+    <div class="col-12 border p-2">
+        <h2 class="text-primary">Product Table</h2><hr />
+       <table class="table table-striped">
+           <tbody>
+               @foreach(var prod in Products)
+                {
+                    <tr>
+                        <td>
+                            <input type="text" @bind-value="prod.Name" @bind-value:event="oninput"/>
+                        </td>
+
+                        <td>
+                            <input type="text" @bind-value="prod.Price" @bind-value:event="oninput" />
+                        </td>
+
+                        <td>
+                            <input type="checkbox" @bind="prod.isActive"/>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+       </table>
+    </div>
+
+
+    <div class="col-12 border p-2">
+        <h2 class="text-primary">Product Summary</h2><hr />
+        <table class="table table-striped">
+            <tbody>
+                @foreach (var prod in Products)
+                {
+                    <p>@prod.Name [@prod.Price] is @(prod.isActive?"Active" : "InActive")</p>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+
+
+
+
+@code {
+    private string selectedProp = "";
+
+    Demo_Products Product = new()
+        {
+            Id = 1,
+            Name = "Nan",
+            isActive = false,
+            Price = 10.99,
+            ProductProperties = new List<Demo_ProductProp>()
+           {
+               new Demo_ProductProp
+               {
+                   Id = 1, Key = "Keyboard", Value="Black"
+               },
+
+               new Demo_ProductProp
+               {
+                   Id = 2, Key = "Mouse", Value="White"
+               },
+
+                new Demo_ProductProp
+               {
+                   Id = 3, Key = "Headphone", Value="Black/White"
+               }
+           }
+
+
+        };
+
+    //List of Demo_Products with List
+    List<Demo_Products> Products = new();
+    protected override void OnInitialized()
+    {
+        Products.Add(new()
+            {
+                Id = 1,
+                Name = "4090 TI",
+                isActive = true,
+                Price=69,
+                ProductProperties = new()
+                {
+                    new Demo_ProductProp    {   Id = 1, Key = "Nvidia", Value = "RTX"   },
+
+                    new Demo_ProductProp    {   Id = 2, Key = "vram", Value = "32gb"    },
+
+
+                    new Demo_ProductProp    {   Id = 3, Key = "display", Value = "4k"   }
+                }
+            });
+
+
+        Products.Add(new()
+            {
+                Id = 2,
+                Name = "6900XT",
+                isActive = false,
+                Price = 96,
+                ProductProperties = new()
+                {
+                   new Demo_ProductProp    {   Id = 1, Key = "AMD", Value = "Radeon"   },
+
+                    new Demo_ProductProp    {   Id = 2, Key = "vram", Value = "32gb"    },
+
+                    new Demo_ProductProp    {   Id = 3, Key = "display", Value = "4k"   }
+                }
+            });
+
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

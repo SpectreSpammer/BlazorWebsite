@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorTutorialUdemy
+build_property.RootNamespace = BlazorTutorialUdemy
+build_property.ProjectDir = C:\Users\Ucpm\Downloads\Udemy Blazor\BlazorTutorialUdemy\BlazorTutorialUdemy\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ucpm\Downloads\Udemy Blazor\BlazorTutorialUdemy\BlazorTutorialUdemy
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/LearnBlazor/BindProperty/BindProp.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxCaW5kUHJvcGVydHlcQmluZFByb3AucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/LearnBlazor/DemoProduct/DemoProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxEZW1vUHJvZHVjdFxEZW1vUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/LearnBlazor/Queue/QueueHomePage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxRdWV1ZVxRdWV1ZUhvbWVQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-cixofizx3k
+
+[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-l7g8l8mxag
