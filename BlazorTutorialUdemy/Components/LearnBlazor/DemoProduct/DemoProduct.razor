@@ -2,29 +2,20 @@
 @rendermode InteractiveServer
 
 <h3>DemoProduct</h3>
+<p>Favorites Total: @selectedFavoriteCount</p>
+<p>last Selected Product: @LastSelectedProductName </p>
 
 <div class="border p-2 mt-2" style="background-color:azure">
     <div class="row">
         @foreach(var prod in Products)
         {
-            <div class="bg-light border m-1 ">
-                <h4 class="text-secondary">Product - @prod.Id</h4>
-                Name - @prod.Name<br />
-                Show Properties :
-                <input type="checkbox" @bind="prod.isActive" /><br />
-
-                @if (prod.isActive)
-                {
-                    @foreach(var prodProp in prod.ProductProperties)
-                    {
-                        <p>@prodProp.Key - @prodProp.Value</p>
-                    }
-                }
-                <br />
-
-                <input  type="button" class="btn-danger" style="width:100px;" value="Delete"/>
-                <input type="button" class="btn-success" style="width:100px;" value="Edit" />
-            </div>
+            <_IndividualProduct
+                Product="prod" 
+                OnFavoriteUpdated="FavoriteCountUpdate"
+                OnLastSelectedProductChange="SelectedProductUpdate"
+            
+            >
+               </_IndividualProduct>
         }
     </div>
 </div>
@@ -32,6 +23,11 @@
 
 @code {
     List<Demo_Products> Products = new();
+
+    private int selectedFavoriteCount { get; set; } = 0;
+
+    private string LastSelectedProductName { get; set; }
+
     protected override void OnInitialized()
     {
         Products.Add(new()
@@ -70,5 +66,29 @@
 
 
 
+
     }
+
+
+    protected void FavoriteCountUpdate(bool isSelected)
+    {
+        if (isSelected)
+        {
+            selectedFavoriteCount++;
+        }
+        else
+        {
+            selectedFavoriteCount--;
+        }
+    }
+
+
+    protected void SelectedProductUpdate(string productName)
+    {
+        LastSelectedProductName = productName;
+    }
+
+
+
+
 }
