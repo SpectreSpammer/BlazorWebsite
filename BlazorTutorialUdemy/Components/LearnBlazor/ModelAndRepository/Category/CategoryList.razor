@@ -1,0 +1,49 @@
+﻿@page "/category"
+@rendermode InteractiveServer
+
+@inject ICategoryRepository _categoryRepository
+
+
+<div class="row mt-4">
+    <div class="col-6">
+        <h4 class="card-title text-info">CATEGORY LIST</h4>
+    </div>
+
+    <div class="col-4 offset-2">
+        <a href="category/create" class="btn btn-info form-control">Add New Category</a>
+    </div>
+
+    <div class="col-12">
+        @if (Categories.Any())
+        {
+            <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    @foreach(var categoryObjects in Categories)
+                    {
+                        <tr>
+                            <td><input type="checkbox" />        @categoryObjects.Name</td>
+                        </tr>
+                        <NavLink href="" ActiveClass="btn btn-primary">Edit</NavLink>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+</div>
+
+@code {
+    private IEnumerable<CategoryDTO> Categories { get; set; } = new List<CategoryDTO>();
+
+    protected override void OnInitialized()
+    {
+        Categories = _categoryRepository.GetAll();
+    }
+}

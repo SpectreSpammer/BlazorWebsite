@@ -1,0 +1,49 @@
+﻿@page "/learnRouting/{parameter1}"
+@page "/learnRouting/{parameter1:int}/{parameter2}"
+@page "/learn/routing"
+@page "/learnRouting"
+@rendermode InteractiveServer
+
+
+@inject NavigationManager _NavigationManager
+
+<h3>learn routing</h3>
+
+<h4>Paremeter 1 : @Parameter1</h4>
+<h4>Paremeter 2 : @Parameter2</h4>
+
+<button @onclick="NavigateToQueryParam" class="btn btn-primary">Navigate to query parameter - Button</button>
+<NavLink href="learnRouting?Param1=learnRouting&Param2=InUdemy" class="btn btn-primary">Navigate to query parameter - NavLink</NavLink>
+<a href="learnRouting?Param1=learnRouting&Param2=InUdemy" class="btn btn-success" @onclick="LoadParameters">Load parameter - a href</a>
+
+<br />
+<h3>Query String Parameters: </h3>
+<h4>Param 1 : @Param1</h4>
+<h4>Parem 2 : @Param2</h4>
+@code {
+    [Parameter]
+    public int Parameter1 { get; set; }
+
+    [Parameter]
+    public string Parameter2 { get; set; }
+
+
+    public string Param1 { get; set; }
+    public string Param2 { get; set; }
+
+    private void LoadParameters()
+    {
+        var absoluteUri =  new Uri(_NavigationManager.Uri);
+        var queryParam = System.Web.HttpUtility.ParseQueryString(absoluteUri.Query);
+
+        Param1 = queryParam["Param1"];
+        Param2 = queryParam["Param2"];
+    }
+
+
+    private void NavigateToQueryParam()
+    {
+        _NavigationManager.NavigateTo("learnRouting?Param1=learnRouting&Param2=InUdemy");
+    }
+   
+}

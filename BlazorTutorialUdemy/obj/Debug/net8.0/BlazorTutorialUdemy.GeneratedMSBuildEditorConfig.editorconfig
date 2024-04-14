@@ -9,59 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorTutorialUdemy
 build_property.RootNamespace = BlazorTutorialUdemy
-build_property.ProjectDir = C:\Users\Ucpm\Downloads\Udemy Blazor\BlazorTutorialUdemy\BlazorTutorialUdemy\
+build_property.ProjectDir = E:\Program Files (x86)\Blazor Web Pages\Office Blazor Tutorial in Udemy\BlazorWebsite\BlazorTutorialUdemy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ucpm\Downloads\Udemy Blazor\BlazorTutorialUdemy\BlazorTutorialUdemy
+build_property.MSBuildProjectDirectory = E:\Program Files (x86)\Blazor Web Pages\Office Blazor Tutorial in Udemy\BlazorWebsite\BlazorTutorialUdemy
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/App.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/LearnBlazor/BindProperty/BindProp.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/BindProperty/BindProp.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxCaW5kUHJvcGVydHlcQmluZFByb3AucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/LearnBlazor/DemoProduct/DemoProduct.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/BlazorLifeCycle/BlazorLifeCycle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxCbGF6b3JMaWZlQ3ljbGVcQmxhem9yTGlmZUN5Y2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/BlazorLifeCycle/_ChildBlazorLifeCycle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxCbGF6b3JMaWZlQ3ljbGVcX0NoaWxkQmxhem9yTGlmZUN5Y2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/DemoProduct/DemoProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxEZW1vUHJvZHVjdFxEZW1vUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/LearnBlazor/Queue/QueueHomePage.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/JavaScriptComponent/BlazorJavascript.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxKYXZhU2NyaXB0Q29tcG9uZW50XEJsYXpvckphdmFzY3JpcHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ModelAndRepository/Category/CategoryList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxNb2RlbEFuZFJlcG9zaXRvcnlcQ2F0ZWdvcnlcQ2F0ZWdvcnlMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ModelAndRepository/Category/CategoryUpsert.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxNb2RlbEFuZFJlcG9zaXRvcnlcQ2F0ZWdvcnlcQ2F0ZWdvcnlVcHNlcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ParentChildComponent/AttributeSplatting/_AnotherChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxQYXJlbnRDaGlsZENvbXBvbmVudFxBdHRyaWJ1dGVTcGxhdHRpbmdcX0Fub3RoZXJDaGlsZENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ParentChildComponent/LearnRounting/LearnRounting.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxQYXJlbnRDaGlsZENvbXBvbmVudFxMZWFyblJvdW50aW5nXExlYXJuUm91bnRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ParentChildComponent/ParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxQYXJlbnRDaGlsZENvbXBvbmVudFxQYXJlbnRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ParentChildComponent/PassingPropertiesInMultipleComponents/_GrandChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxQYXJlbnRDaGlsZENvbXBvbmVudFxQYXNzaW5nUHJvcGVydGllc0luTXVsdGlwbGVDb21wb25lbnRzXF9HcmFuZENoaWxkQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ParentChildComponent/_ChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxQYXJlbnRDaGlsZENvbXBvbmVudFxfQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ProductComponents/_EditDeleteButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxQcm9kdWN0Q29tcG9uZW50c1xfRWRpdERlbGV0ZUJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/ProductComponents/_IndividualProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxQcm9kdWN0Q29tcG9uZW50c1xfSW5kaXZpZHVhbFByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/LearnBlazor/Queue/QueueHomePage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMZWFybkJsYXpvclxRdWV1ZVxRdWV1ZUhvbWVQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Counter.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Error.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Home.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Pages/Weather.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Routes.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/_Imports.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Layout/MainLayout.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-cixofizx3k
 
-[C:/Users/Ucpm/Downloads/Udemy Blazor/BlazorTutorialUdemy/BlazorTutorialUdemy/Components/Layout/NavMenu.razor]
+[E:/Program Files (x86)/Blazor Web Pages/Office Blazor Tutorial in Udemy/BlazorWebsite/BlazorTutorialUdemy/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-l7g8l8mxag

@@ -4,6 +4,7 @@
     <input type="checkbox" @onchange="FavoriteUpdated"/> Add to Favorite <br />
    
     Name - @Product.Name<br />
+    <p>Render Fragment from Parent - @FirstFragment @SecondFragment</p>
     Show Properties :
     <input type="checkbox" @bind="Product.isActive" /><br />
 
@@ -29,6 +30,13 @@
 
     [Parameter]
     public EventCallback<string> OnLastSelectedProductChange { get; set; }
+
+    [Parameter]
+    public RenderFragment FirstFragment { get; set; }
+
+    [Parameter]
+    public RenderFragment SecondFragment { get; set; }
+
 
     
 

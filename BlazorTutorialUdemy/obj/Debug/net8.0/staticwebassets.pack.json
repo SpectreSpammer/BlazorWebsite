@@ -1,24 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTutorialUdemy.bundle.scp.css",
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTutorialUdemy.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorTutorialUdemy.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\app.css",
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\favicon.png",
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorTutorialUdemy.Microsoft.AspNetCore.StaticWebAssets.props",

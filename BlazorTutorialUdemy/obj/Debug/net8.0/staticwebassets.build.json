@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DBBUXZySEsKHhZaBHAUNZfyJ4uMFsPzkLWemyvY00d4=",
+  "Hash": "yLHOMdlDDev/QJUen8oWPdfrBMmEZ27J26vx+F0nYao=",
   "Source": "BlazorTutorialUdemy",
   "BasePath": "_content/BlazorTutorialUdemy",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorTutorialUdemy\\wwwroot",
       "Source": "BlazorTutorialUdemy",
-      "ContentRoot": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\",
       "BasePath": "_content/BlazorTutorialUdemy",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTutorialUdemy.styles.css",
+      "Identity": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTutorialUdemy.styles.css",
       "SourceId": "BlazorTutorialUdemy",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorTutorialUdemy",
       "RelativePath": "BlazorTutorialUdemy.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTutorialUdemy.styles.css"
+      "OriginalItemSpec": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTutorialUdemy.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTutorialUdemy.bundle.scp.css",
+      "Identity": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTutorialUdemy.bundle.scp.css",
       "SourceId": "BlazorTutorialUdemy",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorTutorialUdemy",
       "RelativePath": "BlazorTutorialUdemy.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTutorialUdemy.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTutorialUdemy.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\app.css",
+      "Identity": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\app.css",
       "SourceId": "BlazorTutorialUdemy",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\",
       "BasePath": "_content/BlazorTutorialUdemy",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorTutorialUdemy",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\",
       "BasePath": "_content/BlazorTutorialUdemy",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorTutorialUdemy",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\",
       "BasePath": "_content/BlazorTutorialUdemy",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\favicon.png",
+      "Identity": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\favicon.png",
       "SourceId": "BlazorTutorialUdemy",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ucpm\\Downloads\\Udemy Blazor\\BlazorTutorialUdemy\\BlazorTutorialUdemy\\wwwroot\\",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\",
       "BasePath": "_content/BlazorTutorialUdemy",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\js\\JavaScript.js",
+      "SourceId": "BlazorTutorialUdemy",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Program Files (x86)\\Blazor Web Pages\\Office Blazor Tutorial in Udemy\\BlazorWebsite\\BlazorTutorialUdemy\\wwwroot\\",
+      "BasePath": "_content/BlazorTutorialUdemy",
+      "RelativePath": "js/JavaScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\JavaScript.js"
     }
   ]
 }
